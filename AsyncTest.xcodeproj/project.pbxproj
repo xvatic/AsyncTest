@@ -15,6 +15,7 @@
 		D0A5B0B524D4BC4F001E1300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A5B0B324D4BC4F001E1300 /* LaunchScreen.storyboard */; };
 		D0A5B0C024D4BC4F001E1300 /* AsyncTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0BF24D4BC4F001E1300 /* AsyncTestTests.swift */; };
 		D0A5B0CB24D4BC4F001E1300 /* AsyncTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0CA24D4BC4F001E1300 /* AsyncTestUITests.swift */; };
+		D0A5B0D924D4BCBD001E1300 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B0D824D4BCBD001E1300 /* Thread.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D0A5B0C624D4BC4F001E1300 /* AsyncTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A5B0CA24D4BC4F001E1300 /* AsyncTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestUITests.swift; sourceTree = "<group>"; };
 		D0A5B0CC24D4BC4F001E1300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A5B0D824D4BCBD001E1300 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D0A5B0B324D4BC4F001E1300 /* LaunchScreen.storyboard */,
 				D0A5B0B624D4BC4F001E1300 /* Info.plist */,
 				D0A5B0B024D4BC4F001E1300 /* Preview Content */,
+				D0A5B0D824D4BCBD001E1300 /* Thread.swift */,
 			);
 			path = AsyncTest;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				D0A5B0A924D4BC4A001E1300 /* AppDelegate.swift in Sources */,
 				D0A5B0AB24D4BC4A001E1300 /* SceneDelegate.swift in Sources */,
 				D0A5B0AD24D4BC4A001E1300 /* ContentView.swift in Sources */,
+				D0A5B0D924D4BCBD001E1300 /* Thread.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
